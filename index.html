@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Slot Machine</title>
+		<link rel="stylesheet" href="./css/style.css"/>
+		<link rel="stylesheet" href="./css/reel.css">
+		<link rel="icon" href="asset/favicon.ico" />
+		<!-- <link rel="stylesheet" href="./css/log.css"> -->
+	</head>
+	<body>
+	<div class="msg">
+		<button type="button" onclick="$('div.msg').css('display', 'none');">close</button>
+		<p id="msg"></p>
+	</div>
+		<div class="disabled" id="nope">
+			<div>
+				<span class="errors"></span>
+				<form method="POST" class="log">
+					<label for="login">username</label>
+					<input type="text" name="login" class="log" placeholder="username" pattern="[A-Za-z]{3,}" required autofocus>
+					<br>
+					<button type="submit" class="submitlogs">login</button>
+				</form>
+			</div>
+		</div>
+		<main class="main">
+			<header class="title">
+				<h1 >Simp <img src="asset/HS1.png" class="imgtittle"> Shot</h1>
+			</header>
+			<section class="slots_container" ><!-- main -->
+				<!-- reels -->
+				<div class="reels 1">
+					<ul>
+						<li>javascript non disponible</li>
+					</ul>
+				</div>
+				<div class="reels 2">
+					<ul>
+						<li>javascript non disponible</li>
+					</ul>
+				</div>
+				<div class="reels 3">
+					<ul>
+						<li>javascript non disponible</li>
+					</ul>
+				</div>
+				<div class="reels 4">
+					<ul>
+						<li>javascript non disponible</li>
+					</ul>
+				</div>
+				<!-- q -->
+				<div class="sink">
+					<a class="uname">not connected</a> <br> <a class="pts"></a> <br> <hr> <br><br>
+					<button type="button" onclick="go();">Start</button>
+				</div>
+				<div class="main_right">
+					<ul class="top">
+						<li>toto : 20</li>
+						<li>titi :20</li>
+					</ul>
+				</div>
+			</section>
+			
+		</main>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+		
+		<script type="text/javascript" src="js/var.js"></script>
+		<script type="text/javascript" src="js/slid.js"></script>
+		<script type="text/javascript" src="js/function.js"></script>
+		<script type="text/javascript" src="js/session.js"></script>
+		
+		<script type="text/javascript" src="js/credits.js"></script>
+		<script type="text/javascript" src="js/Score.js"></script>
+	</body>
+</html>

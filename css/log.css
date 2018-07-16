@@ -1,0 +1,37 @@
+div.disabled div
+{
+	margin: 20% 20% 10px 20%;
+	background-color:	#A9A9A9;
+	border-radius:10px;
+}
+span.error
+{
+	display:block;
+	width:98%;
+	border-radius: 10px 10px 5px 5px;
+	background-color : red;
+	text-align:center;
+	padding:1%;
+}
+div.disabled div input
+{
+	margin : 5%;
+	width:90%;
+	height:30px;
+	border-radius:10px;
+	font-size: 150%;
+}
+div.disabled div label
+{
+	display:inline-block;
+	width:100%;
+	text-align: center;
+	font-size: 150%;
+}
+div.disabled div button
+{
+	width:100%;
+	height:30px;
+	border-radius:10px;
+	font-size: 120%;
+}
